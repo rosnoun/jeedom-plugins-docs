@@ -4,8 +4,7 @@ title: Liste des plugins
 lang: fr_FR
 ---
 
-Liste des plugin Jeedom
-===
+Liste des plugins Jeedom
 
 # Tado
 

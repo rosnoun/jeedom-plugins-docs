@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Documentation Arlo
+title: Tado
 lang: fr_FR
-pluginId: arlo
+pluginId: tado
 ---
 
 # Description 
