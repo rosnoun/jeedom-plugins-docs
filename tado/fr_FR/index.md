@@ -1,10 +1,15 @@
-Description 
-===
+---
+layout: default
+title: Documentation Arlo
+lang: fr_FR
+pluginId: arlo
+---
+
+# Description 
 
 Plugin permettant de connceter jeedom à l'API non officielle de Tado
 
-Configuration générale
-===
+# Configuration générale
 
 Rien de plus simple, après avoir activé votre plugin, il faut renseigner vos 
 identifiants de connection à Tado dans la page de configuration du plugin.
@@ -14,11 +19,11 @@ d'autorisation est bien obtenu.
 Une fois l'autorisation confirmée, il suffit d'aller sur la page du plugin
 et lancer une synchronisation pour récupérer tous les équipements.
 
-Configuration spécifique
-===
+# Configuration spécifique
+
 Certains équipements contiennent des paramètres configurables
 
-### Zones
+## Zones
 
 Pour les Zones vous pouvez:
 -   activer/désactiver la détection de fenêtre ouverte
