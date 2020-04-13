@@ -5,6 +5,9 @@ lang: fr_FR
 pluginId: tado
 ---
 
+# Changelog
+- [Changelog]({{site.baseurl}}/tado/{{page.lang}}/changelog)
+
 # Description 
 
 Plugin permettant de connceter jeedom à l'API non officielle de Tado
@@ -23,9 +26,15 @@ et lancer une synchronisation pour récupérer tous les équipements.
 
 Certains équipements contiennent des paramètres configurables
 
+## Maison
+Pour les Maisons, à partir de la page de configuration de l'équipement, vous pouvez:
+-   activer/désactiver le passage automatique en mode Home/Away lorsque que vous 
+	entrez/quittez le domicile
+
+
 ## Zones
 
-Pour les Zones vous pouvez:
+Pour les Zones, à partir de la page de configuration de l'équipement, vous pouvez:
 -   activer/désactiver la détection de fenêtre ouverte
 -   modifer le timeout du mode fenêtre ouverte
 -   activer/désactiver le passage automatique en mode fenêtre ouverte lors 
