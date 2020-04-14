@@ -75,9 +75,21 @@ officielle. Ils permettent de connaitre leur position et s'ils sont détectés a
 La géolocalisation de l'équipement en question doit être activée
 
 
-## Thermostats intelligents
+## Thermostats intelligents2
+
+L'API tado ne fournit, pour le niveau de batterie des équipement Tado sur batterie, qu'un 
+état "NORMAL". Les autres état de batterie possible ne sont pour le moment pas connu par le 
+développeur.
+Le plugin se contente donc de traduire par 100% pour l'état 'NORMAL' et par 10% pour tout autre état 
+remonté par l'API.
 
 ## Vannes intelligentes
+
+L'API tado ne fournit, pour le niveau de batterie des équipement Tado sur batterie, qu'un 
+état "NORMAL". Les autres état de batterie possible ne sont pour le moment pas connu par le 
+développeur.
+Le plugin se contente donc de traduire par 100% pour l'état 'NORMAL' et par 10% pour tout autre état 
+remonté par l'API.
 
 ## Météo
 
