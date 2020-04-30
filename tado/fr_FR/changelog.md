@@ -5,9 +5,9 @@ lang: fr_FR
 pluginId: tado
 ---
 
-# 2020-04-13
+# 2020-04-30
 
-Première version
+Première version publique
 
 # Documentation
 
