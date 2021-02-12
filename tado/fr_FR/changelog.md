@@ -10,13 +10,12 @@ pluginId: tado
 -	Ajout des Internet Bridge et Kit d'extension
 -	Généralisation du traitement de synchronisation des équipements tado
 -	Corrections de Bugs
--	Ajout des commandes de fanSpeed et swing (auto) aux commandes d'overlay des clim
 
 # 2021-01-19
 -	Retro compatibilité des commandes d'overlay avec app Tado V2
 -	Caractéristiques d'affichage du widget regroupée dans config.json
 -	Ajout d'une fonction de reset de l'affichage du widget
--	Ajout des paramètres FanSpeed et Swing aux commandes d'overlay des clim lorsque cela est supporté
+-	Ajout des paramètres FanSpeed et Swing (auto) aux commandes d'overlay des clim lorsque cela est supporté
 
 # 2021-01-13
 -	Ajout des smart clim type WR02
