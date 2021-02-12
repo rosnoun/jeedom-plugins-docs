@@ -132,25 +132,24 @@ Les équipements mobiles sont ceux enregistré dans votre compte via l'applicati
 officielle. Ils permettent de connaitre leur position et s'ils sont détectés au domicile.
 La géolocalisation de l'équipement en question doit être activée.
 
-## Thermostats intelligents
+## Equipements
 
-L'API tado ne fournit, pour le niveau de batterie des équipement Tado sur batterie, qu'un 
-état "NORMAL". Les autres état de batterie possible ne sont pour le moment pas connu par le 
-développeur.
+De nombreux équipements Tado sont pris en charge par le plugin
+-	Thermostats intelligents
+-	Clims intelligentes
+-	Vannes intelligentes
+-	Capteur de température
+-	Kit d'extension
+-	Bridge Internet
+
+Les équipements tado ne remontent via l'API que leur état de connexion et leur niveau de 
+batterie pour ceux qui sont sur pile. L'API tado ne fournit, pour le niveau de batterie, qu'un 
+état "NORMAL" ou "LOW".
 Le plugin se contente donc de traduire par 100% pour l'état 'NORMAL' et par 10% pour tout autre état 
 remonté par l'API.
 
-## Climatisations intelligentes
-
-A compléter
-
-## Vannes intelligentes
-
-L'API tado ne fournit, pour le niveau de batterie des équipement Tado sur batterie, qu'un 
-état "NORMAL". Les autres état de batterie possible ne sont pour le moment pas connu par le 
-développeur.
-Le plugin se contente donc de traduire par 100% pour l'état 'NORMAL' et par 10% pour tout autre état 
-remonté par l'API.
+D'autres fonctionnalités, comme l'offset de mesure de température, sont prises en charge à travers la zone
+dans laquelle est incluse l'équipement.
 
 ## Météo
 
